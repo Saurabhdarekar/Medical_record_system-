@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.1"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/doclistView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2px"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="#00000000"></ListView>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/docbutton1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:background="#FFFFFF"
+        android:text="Accept"
+        android:textColor="#0099CC" />
+
+    <Button
+        android:id="@+id/docbutton2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="Reject"
+        android:textColor="#0099CC" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_appointment"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Book a Doctor's appointment" />
+
+        <item
+            android:id="@+id/appointment_history"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Appointment History" />
+        
+
+        <item
+            android:id="@+id/prescription"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Prescriptions" />
+
+        <item
+            android:id="@+id/lab_appoint"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Book a lab appointment" />
+
+        <item
+            android:id="@+id/lab_reports"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Lab Reports" />
+        <item
+            android:id="@+id/vaccines"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Vaccines Taken" />
+
+        <item
+            android:id="@+id/patient_logout"
+            android:icon="@drawable/ic_logout"
+            android:title=" logout" />
+    </group>
+
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>  -->
+
+</menu>

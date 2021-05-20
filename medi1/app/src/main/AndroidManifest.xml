@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medi1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".book_lab_appointment" />
+        <activity android:name=".vaccine_list" />
+        <activity android:name=".lab_report_display" />
+        <activity android:name=".lab_report_list" />
+        <activity android:name=".prescription_list" />
+        <activity android:name=".prescription_display" />
+        <activity android:name=".appointment_history" />
+        <activity android:name=".patient_signup" />
+        <activity android:name=".lab_signup" />
+        <activity android:name=".doctor_signup" />
+        <activity android:name=".docMainActivity" />
+        <activity android:name=".labMainActivity" />
+        <activity
+            android:name=".lab_login"
+            android:parentActivityName=".lab_start" />
+        <activity
+            android:name=".doctor_login"
+            android:parentActivityName=".doctor_start" />
+        <activity
+            android:name=".lab_start"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".doctor_start"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bookappointment"
+            android:parentActivityName=".mainpage" />
+        <activity
+            android:name=".mainpage"
+            android:label="@string/title_activity_mainpage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".patient_login"
+            android:parentActivityName=".patient_start" />
+        <activity
+            android:name=".patient_start"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

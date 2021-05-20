@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Name:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/docet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:text="Saurabh"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="50dp"
+        android:text="Practice Type:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/docet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        android:text="Orthopaedics"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="50dp"
+        android:text="Years of Experience:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/docet3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginRight="30dp"
+        android:text="23"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="50dp"
+        android:text="Location:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/docet4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="30dp"
+        android:text="Pune"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="50dp"
+        android:text="Email:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/docet5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:text="saurabhdarekar724@gmail.com"
+        android:textSize="30dp"
+        />
+</RelativeLayout>
