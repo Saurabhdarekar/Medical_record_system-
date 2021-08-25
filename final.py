@@ -4,7 +4,6 @@ from bson.json_util import dumps
 from bson.objectid import ObjectId
 from flask import jsonify,request
 from werkzeug.security import generate_password_hash,check_password_hash
-import bcrypt
 import json
 import random
 
